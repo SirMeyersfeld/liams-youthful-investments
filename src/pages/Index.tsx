@@ -48,7 +48,7 @@ const Index = () => {
     const body = encodeURIComponent(
       `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
     );
-    window.location.href = `mailto:liam@liammeyersfeldtrust.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:lmeyersfeld@gmail.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
